@@ -3,3 +3,4 @@ const b = a * 8;
 console.log(b);
 
 const c = b + 1;
+const d = c + 8;
