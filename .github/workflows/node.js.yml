@@ -1,0 +1,19 @@
+name: Test on Windows
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout the code
+      uses: actions/checkout@v2
+
+    - name: Run the program
+      run: |
+        npm ci
+        node index.js
