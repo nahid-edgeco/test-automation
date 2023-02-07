@@ -10,10 +10,10 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - name: Checkout the code
-      uses: actions/checkout@v2
+      - name: Checkout the code
+        uses: actions/checkout@v3
 
-    - name: Run the program
-      run: |
-        npm ci
-        node index.js
+      - name: Run the program
+        run: |
+          npm ci
+          node index.js
