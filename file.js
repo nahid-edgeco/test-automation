@@ -6,3 +6,4 @@ const c = b + 1;
 const d = c + 8;
 const e = d + d;
 const monjirul = "jobless";
+const f = "Bangladesh";
