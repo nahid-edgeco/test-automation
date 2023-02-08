@@ -8,3 +8,4 @@ const e = d + d;
 const monjirul = 'jobless';
 const f = 'Bangladesh';
 const message = 'Can you see it?';
+const g = 0;
