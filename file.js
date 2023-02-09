@@ -15,3 +15,4 @@ const message2 = 'hello?';
 const message3 = 'Monjirul, dont keep wrong code!!';
 const message4 = 'hello hello';
 const message5 = 'another hello';
+const message6 = 'message 6';
