@@ -19,3 +19,5 @@ const message6 = 'message 6';
 const message7 = 'message 7';
 const message8 = 'message 8';
 const message9 = 'message9';
+
+console.log('Test');
