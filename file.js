@@ -28,3 +28,4 @@ const serviceTest3 = 'serviceTest3';
 const serviceTest4 = 'serviceTest4';
 const serviceTest5 = 'serviceTest5';
 const serviceTest6 = 'serviceTest6';
+const serviceTest7 = 'serviceTest7';
