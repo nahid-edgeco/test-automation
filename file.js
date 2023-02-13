@@ -21,3 +21,5 @@ const message8 = 'message 8';
 const message9 = 'message9';
 
 console.log('Test');
+
+const serviceTest1 = 'serviceTest1';
