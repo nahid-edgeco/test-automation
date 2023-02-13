@@ -33,17 +33,11 @@ jobs:
     steps:
       - name: Checkout the code
         uses: actions/checkout@v3
-        with:
-          ref: main
-          submodules: recursive
-          path: E:\Developments\gitHubTest\automation\test-automation
 
-      - name: Set the working directory
-        uses: actions/setup-go@v2
-        with:
-          working-directory: E:\Developments\gitHubTest\automation\test-automation
+      - name: Set repository directory
+        run: |
+          cd E:\Developments\gitHubTest\automation\test-automation
 
       - name: Run the program
         run: |
-          cd E:\Developments\gitHubTest\automation\test-automation
           npm ci
