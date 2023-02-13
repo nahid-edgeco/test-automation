@@ -12,11 +12,9 @@ jobs:
     steps:
       - name: Checkout the code
         uses: actions/checkout@v3
-        # with:
-        #   paths: E:\Developments\gitHubTest\automation\test-automation
 
       - name: Run the program
         run: |
-          cd E:\Developments\gitHubTest\automation\test-automation
-          git pull
+          # cd E:\Developments\gitHubTest\automation\test-automation
+          # git pull
           npm ci
