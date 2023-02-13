@@ -14,8 +14,8 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run the program
+        working-directory: E:\Developments\Test\test-automation
         run: |
           # cd E:\Developments\Test\test-automation
           # git pull
           npm ci
-        working-directory: E:\Developments\Test\test-automation
