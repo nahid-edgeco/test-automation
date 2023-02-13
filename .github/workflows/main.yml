@@ -18,4 +18,5 @@ jobs:
           # cd E:\Developments\Test\test-automation
           # git pull
           npm ci
-          working-directory: E:\Developments\Test\test-automation
+
+      - working-directory: E:\Developments\Test\test-automation
