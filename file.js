@@ -24,3 +24,4 @@ console.log('Test');
 
 const serviceTest1 = 'serviceTest1';
 const serviceTest2 = 'serviceTest2';
+const serviceTest3 = 'serviceTest3';
