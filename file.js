@@ -39,3 +39,4 @@ const serviceTest14 = 'serviceTest14';
 const serviceTest15 = 'serviceTest15';
 const serviceTest16 = 'serviceTest16';
 const serviceTest17 = 'serviceTest17';
+const serviceTest18 = 'serviceTest18';
