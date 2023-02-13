@@ -8,11 +8,13 @@ on:
 jobs:
   build:
     runs-on: self-hosted
-    working-directory: E:/Developments/Test/test-automation
 
     steps:
       - name: Checkout the code
         uses: actions/checkout@v3
+        with:
+          ref: main
+          path: E:\Developments\Test\test-automation
 
       - name: Run the program
         run: |
