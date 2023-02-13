@@ -13,8 +13,7 @@ jobs:
       - name: Checkout the code
         uses: actions/checkout@v3
         with:
-          ref: main
-          path: E:\Developments\Test\test-automation
+          subdirectory: E:\Developments\Test\test-automation
 
       - name: Run the program
         run: |
