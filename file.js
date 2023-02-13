@@ -46,3 +46,4 @@ const servieTest21 = 'servieTest21';
 const servieTest22 = 'servieTest22';
 const servieTest23 = 'servieTest23';
 const servieTest24 = 'servieTest24';
+const servieTest25 = 'servieTest25';
