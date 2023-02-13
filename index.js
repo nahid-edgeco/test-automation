@@ -1,3 +1,8 @@
-console.log('Hello World!!');
-console.log('Has runner been fixed?');
-console.log('Is the new line being added?');
+const axios = require('axios');
+
+const getGoogle = async () => {
+  const res = await axios.get('https://google.com');
+  console.log({ res });
+};
+
+getGoogle();
