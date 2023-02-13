@@ -15,6 +15,6 @@ jobs:
 
       - name: Run the program
         run: |
-          cd E:\Developments\Test
-          git pull
+          # cd E:\Developments\Test\test-automation
+          # git pull
           npm ci
