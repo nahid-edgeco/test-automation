@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: self-hosted
+    working-directory: E:/Developments/Test/test-automation
 
     steps:
       - name: Checkout the code
