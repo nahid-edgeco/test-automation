@@ -12,9 +12,10 @@ jobs:
     steps:
       - name: Checkout the code
         uses: actions/checkout@v3
+        with:
+          paths: E:\Developments\gitHubTest\automation\test-automation
 
       - name: Run the program
-        working-directory: E:\Developments\Test\test-automation
         run: |
           # cd E:\Developments\Test\test-automation
           # git pull
